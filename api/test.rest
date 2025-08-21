@@ -1,0 +1,15 @@
+POST http://localhost:8000/api/transactions/
+Content-Type: application/json
+
+{
+    "description": "Manger pou Août",
+    "amount": -700.00
+}
+
+###
+
+GET http://localhost:8000/api/transactions/
+
+###
+
+GET  http://localhost:8000/api/transactions/a49e9c2d-05b3-4228-8c1a-3eabe12b6edb/
